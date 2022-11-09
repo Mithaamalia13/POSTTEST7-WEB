@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Podkova&display=swap');
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: sticky;
+  height: 810px;
+  width: 100%;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.logo{
+  margin-right: 2%;
+}
+
+.logo-text{
+  margin-right: auto;
+  font-size: 20px;
+  font-family: 'Podkova', serif;
+  font-weight: 700;
+  color: white;
+}
+
+nav li{
+  list-style: none;
+  float: left;
+  padding: 35px 20px;
+  font-size: 20px;
+  font-family: 'Podkova', serif;
+  font-weight: 700;
+  color: white;
+}
+
+nav li > img{
+  width: 40px;
+  height: 40px;
+}
+
+.login{
+  padding: 9px 23px;
+  background-color: #D9D9D9;
+  border: none;
+  font-size: 16px;
+  font-family: 'Podkova', serif;
+  color: white;
+  opacity: 0.7;
+  margin-left: 10%;
+}
+
+.header-text{
+  margin-left: 10%;
+  margin-top: 15%;
+  font-family: 'Podkova', serif;
+  color: white;
+}
+
+.header-text > h1{
+  font-size: 300%;
+  font-weight: 700;
+}
+
+.header-text > p{
+  font-size: 150%;
+  font-weight: 400;
+}
+
+.explore{
+  padding: 9px 23px;
+  background-color: #FEC145;
+  width: 269px;
+  height: 69px;
+  border: none;
+  font-size: 32px;
+  font-family: 'Podkova', serif;
+  font-weight: 700;
+  color: white;
+}
+
+.main{
+  min-height: 400px;
+  background-color: #21322A;
+  height: 436x;
+  padding: 10%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.main .card{
+  background-color: white;
+  height: 110%;
+}
+
+.card > img{
+  object-fit: fill;
+  height: 297px;
+  width: 100%;
+}
+
+.card h3{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Podkova', serif;
+  margin: 15px;
+  text-align: center;
+}
+
+.card p{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Podkova', serif;
+  text-align: center;
+}
+
+.card > .card-footer{
+  text-align: center;
+}
+
+.lihat{
+  text-decoration: none;
+  padding: 9px 23px;
+  background-color: #FEC145;
+  width: 52px;
+  height: 19px;
+  border: none;
+  font-size: 14px;
+  font-family: 'Podkova', serif;
+  font-weight: 700;
+  color: white;
+}
+
+.show{
+  margin-left: 37%;
+  padding: 9px 23px;
+  background-color: #1D2924;
+  width: 300px;
+  height: 50px;
+  border: none;
+  font-size: 36px;
+  text-align: center;
+  align-items: center;
+  font-family: 'Podkova', serif;
+  font-weight: 700;
+  color: white;
+}
+
+.about{
+  min-height: 400px;
+  background-color: #21322A;
+  height: 500x;
+  font-family: 'Podkova', serif;
+  color: white;
+}
+
+.about-me{
+  display: flex;
+}
+
+.about-me > div{
+  font-size: 36px;
+  font-weight: 700;
+  width: 40%;
+  margin: 10%;
+}
+
+.about-me > p{
+  width: 50%;
+  margin-right: 2%;
+  margin-top: 10%;
+  align-self: center;
+  font-size: 20px;
+}
+
+.footer{
+  background-color: #1D2924;
+  color: white;
+  height: 222px;
+  font-family: 'Podkova', serif;
+ 
+}
+
+.footer-logo {
+  font-size: 64px;
+  float: left;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.footer-list {
+  float: right;
+  margin-right: 7%;
+  margin-top: 2%;
+}
+
+.footer-list li {
+  list-style: none;
+  padding-bottom: 20px;
+}

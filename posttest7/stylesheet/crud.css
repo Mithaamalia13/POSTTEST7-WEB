@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #21322A;
+}
+
+/* Tampilan Lihat Data Admin */
+.judul{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 5%;
+}
+.info_pendaki {
+    width: 50%;
+    /* margin-left: 7%; */
+    text-align: center;
+    width: 100%;
+    table-layout: fixed;
+    min-width: 1000px;
+    border-collapse: collapse;
+    height: 650px;
+    overflow: auto;
+}
+
+table {
+    margin-top: 10px;
+}
+
+.info_data {
+    border: none;
+    background-color: #FEC145;
+    color: white;
+}
+
+.info_data:hover{
+    background-color: #f7ad19;
+}
+
+.isi{
+    background: white;
+}
+
+td, th {
+    padding: 15px 20px;
+}
+
+th {
+    padding: 10px 0px;
+}
+
+.edit a {
+    background-color: orange;
+    color: white;
+}
+
+.hapus a {
+    background-color: red;
+    color: white;
+}
+
+.edit a:hover{
+    background-color: rgb(223, 145, 0);
+}
+
+.hapus a:hover {
+    background-color: rgb(179, 0, 0);
+}
+
+.isi :hover{
+    background-color: #f7ad19;
+}
+
+/* Tampilan Update Data Admin */
+p{
+    text-align: center;
+    text-transform: 300;
+}
+
+.judul-edit{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 15%;
+}
+
+.form-class{
+    width: 350px;
+    background: white;
+    margin: 80px auto;
+    padding: 30px 20px;
+}
+
+.form-text{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-submit{
+    font-family: 'Times New Roman', Times, serif;
+    background: #21322A;
+    color: white;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type='text']{
+    margin-left: 20px;
+    margin-top: 30px;
+    height: 50px;
+    width: 340px;
+    border-radius: 25px 0 0 25px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    background: #ffffff;
+}
+button[type='submit']{
+    cursor: pointer;
+    margin-top: 30px;
+    border: none;
+    position: relative;
+    border-radius: 0 25px 25px 0;
+    height: 50px;
+    width: 100px;
+    color: rgba(243, 130, 0, 0.867);
+}
+
+.tambah, .add{
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 3%;
+    border: none;
+    position: relative;
+    border-radius:25px;
+    height: 50px;
+    width: 150px;
+    color: rgba(243, 130, 0, 0.867);
+    text-decoration: none;
+}
+
+
+  
+  .logo{
+    margin-right: 2%;
+  }
+  .logo{
+    margin-left: 2%;
+  }
+  

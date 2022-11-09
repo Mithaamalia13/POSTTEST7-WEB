@@ -1,0 +1,37 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: #21322A;
+}
+
+.logo_daftar{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.daftar{
+    width: 350px;
+    background: white;
+    margin: 80px auto;
+    padding: 30px 20px;
+}
+
+.form_daftar{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.tombol_daftar{
+    font-family: 'Times New Roman', Times, serif;
+    background: #21322A;
+    color: white;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}

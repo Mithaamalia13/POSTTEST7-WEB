@@ -1,0 +1,44 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: #21322A;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form_pendakian{
+    width: 350px;
+    background: white;
+    margin: 80px;
+    margin-left: 65%;
+    padding: 30px 20px;
+}
+
+.form_data{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.tombol_kirim{
+    font-family: 'Times New Roman', Times, serif;
+    background: #21322A;
+    color: white;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hiking{
+    position: absolute;
+    top: 30%;
+    left:15%;
+}
